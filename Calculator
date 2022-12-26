@@ -1,0 +1,19 @@
+#Taking input from user as String
+a = input("Enter the first number ")
+b = input("Enter the second number ")
+#Typecasting and converting to Integer data type
+c = int(a)
+d = int(b)
+#Taking input as choice 
+choice = input("Enter 1 for addition / Enter 2 for substraction / Enter 3 for multiplication  / Enter 4 for division  ")
+#Conditions 
+if(int(choice) == 1):
+  print("The addition is " ,c+d)
+elif(int(choice) == 2):
+  print("The difference is " ,c-d)
+elif(int(choice) == 3):
+  print("The product is " ,c*d)
+elif(int(choice) == 4):
+  print("The division is " ,c/d)
+else:
+  print("Invalid choice")
